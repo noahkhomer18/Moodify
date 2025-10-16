@@ -6,9 +6,13 @@ A mood-based web application that suggests Spotify playlists and YouTube videos 
 
 - **8 Different Moods**: Happy, Sad, Chill, Angry, Excited, Romantic, Nostalgic, and Energetic
 - **Dual Content Types**: Choose between Spotify playlists or YouTube videos
+- **Favorites System**: Save your favorite recommendations for easy access
+- **Mood History**: Track your mood journey over time
+- **Social Sharing**: Share your favorite recommendations with friends
 - **Responsive Design**: Works perfectly on desktop and mobile devices
 - **Interactive UI**: Smooth animations and intuitive user experience
 - **Randomized Content**: Get different suggestions each time for the same mood
+- **Local Storage**: Your favorites and history are saved locally
 
 ## How to Use
 
@@ -16,6 +20,11 @@ A mood-based web application that suggests Spotify playlists and YouTube videos 
 2. Select your current mood from the 8 available options
 3. Choose whether you want a Spotify playlist or YouTube video
 4. Enjoy your personalized content recommendation!
+5. **New Features**:
+   - Click the heart icon to add recommendations to favorites
+   - Use the share button to share recommendations with friends
+   - Click "View History" to see your mood journey over time
+   - All your data is saved locally in your browser
 
 ## Technologies Used
 

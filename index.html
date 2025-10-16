@@ -12,9 +12,16 @@
         <header>
             <h1>🎵 Moodify</h1>
             <p>Pick your mood and discover the perfect soundtrack</p>
+            <button class="history-btn" id="history-btn">📊 View History</button>
         </header>
 
         <main>
+            <div class="mood-history" id="mood-history" style="display: none;">
+                <h2>Your Mood Journey</h2>
+                <div class="history-list" id="history-list"></div>
+                <button class="back-to-moods-btn">Back to Moods</button>
+            </div>
+            
             <div class="mood-selection">
                 <h2>How are you feeling today?</h2>
                 <div class="mood-grid">
@@ -72,6 +79,14 @@
                     <h3 id="result-title"></h3>
                     <div id="result-description"></div>
                     <div id="result-embed"></div>
+                    <div class="result-actions">
+                        <button class="favorite-btn" id="favorite-btn">
+                            <span class="heart">♡</span> Add to Favorites
+                        </button>
+                        <button class="share-btn" id="share-btn">
+                            <span class="share-icon">📤</span> Share
+                        </button>
+                    </div>
                     <button class="new-search-btn">Try Another Mood</button>
                 </div>
             </div>
