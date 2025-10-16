@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodify - Your Mood, Your Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Moodify</h1>
+            <p>Pick your mood and discover the perfect soundtrack</p>
+        </header>
+
+        <main>
+            <div class="mood-selection">
+                <h2>How are you feeling today?</h2>
+                <div class="mood-grid">
+                    <button class="mood-btn" data-mood="happy">
+                        <span class="emoji">😊</span>
+                        <span class="label">Happy</span>
+                    </button>
+                    <button class="mood-btn" data-mood="sad">
+                        <span class="emoji">😢</span>
+                        <span class="label">Sad</span>
+                    </button>
+                    <button class="mood-btn" data-mood="chill">
+                        <span class="emoji">😌</span>
+                        <span class="label">Chill</span>
+                    </button>
+                    <button class="mood-btn" data-mood="angry">
+                        <span class="emoji">😠</span>
+                        <span class="label">Angry</span>
+                    </button>
+                    <button class="mood-btn" data-mood="excited">
+                        <span class="emoji">🤩</span>
+                        <span class="label">Excited</span>
+                    </button>
+                    <button class="mood-btn" data-mood="romantic">
+                        <span class="emoji">😍</span>
+                        <span class="label">Romantic</span>
+                    </button>
+                    <button class="mood-btn" data-mood="nostalgic">
+                        <span class="emoji">🥺</span>
+                        <span class="label">Nostalgic</span>
+                    </button>
+                    <button class="mood-btn" data-mood="energetic">
+                        <span class="emoji">⚡</span>
+                        <span class="label">Energetic</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-selection" style="display: none;">
+                <h2>What would you like to discover?</h2>
+                <div class="content-options">
+                    <button class="content-btn" data-type="spotify">
+                        <span class="icon">🎵</span>
+                        <span class="label">Spotify Playlist</span>
+                    </button>
+                    <button class="content-btn" data-type="youtube">
+                        <span class="icon">📺</span>
+                        <span class="label">YouTube Video</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="results" style="display: none;">
+                <div class="result-content">
+                    <h3 id="result-title"></h3>
+                    <div id="result-description"></div>
+                    <div id="result-embed"></div>
+                    <button class="new-search-btn">Try Another Mood</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
